@@ -20,11 +20,14 @@ public class FirstController {
 	public String sayYourName() throws UnsupportedEncodingException {
 		String music = ResConstant.getYourChoice();
 		StringBuilder sb = new StringBuilder();
-		sb.append(music);
-		sb.append("<br/>");
+		sb.append("<a href=\"");
 		sb.append("https://music.163.com/#/search/m/?s=");
 		sb.append(URLDecoder.decode(music, "utf-8"));
 		sb.append("&type=1");
+		sb.append("\">");
+		sb.append(music);
+		sb.append("<br/>");
+		sb.append("</a>");
 		return sb.toString();
 	}
 }
