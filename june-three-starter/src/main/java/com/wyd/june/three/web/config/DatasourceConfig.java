@@ -1,4 +1,4 @@
-package com.wyd.june.three.web.controller;
+package com.wyd.june.three.web.config;
 
 import org.apache.ibatis.datasource.pooled.PooledDataSource;
 import org.springframework.beans.factory.annotation.Value;
