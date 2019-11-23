@@ -14,7 +14,6 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
  */
 @SpringBootApplication(scanBasePackages = {"com.wyd.june"}, exclude = { DataSourceAutoConfiguration.class})
 @EnableTransactionManagement
-@ComponentScan("com.wyd.june.three.web.dao")
 public class Starter {
 
 	public static void main(String[] args) {
