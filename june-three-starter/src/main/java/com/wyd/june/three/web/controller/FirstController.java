@@ -15,6 +15,6 @@ public class FirstController {
 
 	@RequestMapping("")
 	public String sayYourName() {
-		return "What's your name ?";
+		return ResConstant.getYourChoice();
 	}
 }
