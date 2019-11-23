@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af1daf4f-a55c-415f-a4b6-af91a966dbed" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/june-three-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/june-three-starter/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/june-three-starter/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/june-three-starter/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/june-three-starter/src/main/java/com/wyd/june/three/web/start/Starter.java" beforeDir="false" afterPath="$PROJECT_DIR$/june-three-starter/src/main/java/com/wyd/june/three/web/start/Starter.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,26 +21,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="56" selection-start-line="56" selection-end-line="56" />
+            <state relative-caret-position="278">
+              <caret line="42" column="26" lean-forward="true" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/june-three-starter/src/main/java/com/wyd/june/three/web/start/Starter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="14" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#349#350#0" expanded="true" />
+                <element signature="e#398#399#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/june-three-starter/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="645">
               <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/june-three-starter/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -56,7 +59,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/june-three-starter/src/main/java/com/wyd/june/three/web/controller/FirstController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
@@ -93,10 +96,10 @@
         <option value="$PROJECT_DIR$/june-three-starter/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/june-three-starter/src/main/java/com/wyd/june/three/web/start/UserDao.java" />
         <option value="$PROJECT_DIR$/june-three-starter/src/main/java/com/wyd/june/three/web/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/june-three-starter/src/main/java/com/wyd/june/three/web/start/Starter.java" />
         <option value="$PROJECT_DIR$/june-three-starter/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/june-three-starter/src/main/java/com/wyd/june/three/web/controller/FirstController.java" />
+        <option value="$PROJECT_DIR$/june-three-starter/src/main/java/com/wyd/june/three/web/start/Starter.java" />
       </list>
     </option>
   </component>
@@ -184,14 +187,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="start" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="june-three" type="b2602c69:ProjectViewProjectNode" />
-              <item name="june-three" type="462c0819:PsiDirectoryNode" />
-              <item name="june-three-starter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="june-three" type="b2602c69:ProjectViewProjectNode" />
@@ -391,7 +386,7 @@
       <workItem from="1574388756650" duration="149000" />
       <workItem from="1574388912747" duration="222000" />
       <workItem from="1574389155822" duration="196000" />
-      <workItem from="1574389359637" duration="14000" />
+      <workItem from="1574389359637" duration="726000" />
     </task>
     <task id="LOCAL-00001" summary="瞎几把配数据库">
       <created>1574338558916</created>
@@ -404,13 +399,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8865000" />
+    <option name="totallyTimeSpent" value="9577000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34978542" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34978542" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -428,7 +423,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3192771" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3192771" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="12" />
       <window_info anchor="bottom" id="Spring" order="13" />
@@ -491,32 +486,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/june-three-starter/src/main/java/com/wyd/june/three/web/start/Starter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#398#399#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/june-three-starter/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/june-three-starter/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -540,6 +509,32 @@
             <element signature="e#391#392#0" expanded="true" />
             <element signature="e#425#426#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="42" column="26" lean-forward="true" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/june-three-starter/src/main/java/com/wyd/june/three/web/start/Starter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/june-three-starter/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
         </state>
       </provider>
     </entry>
