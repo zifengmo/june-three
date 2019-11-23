@@ -62,7 +62,11 @@ public class ResConstant {
 	}
 
 	public static String getYourChoice() {
-		int fortune = new Random(list.size()).nextInt();
+		int fortune = new Random().nextInt(list.size());
 		return list.get(fortune);
+	}
+
+	public static void main(String[] args) {
+		System.out.println(new Random().nextInt(list.size()));
 	}
 }
