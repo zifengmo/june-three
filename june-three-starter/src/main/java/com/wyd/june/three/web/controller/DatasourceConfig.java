@@ -31,7 +31,7 @@ public class DatasourceConfig {
 		Properties properties = new Properties();
 		properties.setProperty("user", dbUsername);
 		properties.setProperty("password", dbPassword);
-		DataSource dataSource = new PooledDataSource("com.mysql.cj.jdbc.Driver", dbUrl, properties);
+		DataSource dataSource = new PooledDataSource("com.mysql.jdbc.Driver", dbUrl, properties);
 		return dataSource;
 	}
 }

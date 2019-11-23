@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af1daf4f-a55c-415f-a4b6-af91a966dbed" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/june-three-starter/src/main/java/com/wyd/june/three/web/controller/ResConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/june-three-starter/src/main/java/com/wyd/june/three/web/controller/ResConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/june-three-starter/src/main/java/com/wyd/june/three/web/controller/DatasourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/june-three-starter/src/main/java/com/wyd/june/three/web/controller/DatasourceConfig.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,17 +21,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="64" selection-start-line="64" selection-end-line="68" selection-end-column="25" />
+            <state relative-caret-position="309">
+              <caret line="60" column="30" lean-forward="true" selection-start-line="60" selection-start-column="30" selection-end-line="60" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/june-three-starter/pom.xml">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/june-three-starter/src/main/java/com/wyd/june/three/web/controller/DatasourceConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="48" selection-start-line="48" selection-end-line="48" />
+            <state relative-caret-position="395">
+              <caret line="33" column="63" selection-start-line="33" selection-start-column="63" selection-end-line="33" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#458#475#1" expanded="true" />
+                <element signature="e#509#531#1" expanded="true" />
+                <element signature="e#570#592#1" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -50,11 +56,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/june-three-starter/src/main/java/com/wyd/june/three/web/controller/ResConstant.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="225">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,7 +100,6 @@
         <option value="$PROJECT_DIR$/june-three-starter/src/main/java/com/wyd/june/three/web/Starter.java" />
         <option value="$PROJECT_DIR$/june-three-starter/src/main/java/com/wyd/june/three/web/JuneController.java" />
         <option value="$PROJECT_DIR$/june-three-starter/src/main/java/com/wyd/june/three/web/controller/JuneController.java" />
-        <option value="$PROJECT_DIR$/june-three-starter/src/main/java/com/wyd/june/three/web/controller/DatasourceConfig.java" />
         <option value="$PROJECT_DIR$/june-three-starter/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/june-three-starter/src/main/java/com/wyd/june/three/web/start/UserDao.java" />
         <option value="$PROJECT_DIR$/june-three-starter/src/main/java/com/wyd/june/three/web/dao/UserDao.java" />
@@ -100,6 +108,7 @@
         <option value="$PROJECT_DIR$/june-three-starter/pom.xml" />
         <option value="$PROJECT_DIR$/june-three-starter/src/main/java/com/wyd/june/three/web/controller/FirstController.java" />
         <option value="$PROJECT_DIR$/june-three-starter/src/main/java/com/wyd/june/three/web/controller/ResConstant.java" />
+        <option value="$PROJECT_DIR$/june-three-starter/src/main/java/com/wyd/june/three/web/controller/DatasourceConfig.java" />
       </list>
     </option>
   </component>
@@ -188,6 +197,37 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="june-three" type="b2602c69:ProjectViewProjectNode" />
+              <item name="june-three" type="462c0819:PsiDirectoryNode" />
+              <item name="june-three-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="june-three" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="june-three" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: mysql:mysql-connector-java:5.1.48" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="june-three" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: mysql:mysql-connector-java:5.1.48" type="70bed36:NamedLibraryElementNode" />
+              <item name="mysql-connector-java-5.1.48.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="june-three" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: mysql:mysql-connector-java:5.1.48" type="70bed36:NamedLibraryElementNode" />
+              <item name="mysql-connector-java-5.1.48.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -383,7 +423,7 @@
       <workItem from="1574388912747" duration="222000" />
       <workItem from="1574389155822" duration="196000" />
       <workItem from="1574389359637" duration="839000" />
-      <workItem from="1574494080521" duration="829000" />
+      <workItem from="1574494080521" duration="1132000" />
     </task>
     <task id="LOCAL-00001" summary="瞎几把配数据库">
       <created>1574338558916</created>
@@ -396,13 +436,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10519000" />
+    <option name="totallyTimeSpent" value="10822000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34978542" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34978542" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -420,7 +460,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3192771" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3192771" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="12" />
       <window_info anchor="bottom" id="Spring" order="13" />
@@ -431,7 +471,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" weight="0.3297568" />
+      <window_info anchor="right" id="Maven" order="5" visible="true" weight="0.3297568" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
@@ -473,16 +513,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/june-three-starter/src/main/java/com/wyd/june/three/web/controller/DatasourceConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/june-three-starter/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -504,13 +534,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="64" selection-start-line="64" selection-end-line="68" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -546,8 +569,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/june-three-starter/src/main/java/com/wyd/june/three/web/controller/ResConstant.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="60" column="30" lean-forward="true" selection-start-line="60" selection-start-column="30" selection-end-line="60" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/june-three-starter/src/main/java/com/wyd/june/three/web/controller/DatasourceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="33" column="63" selection-start-line="33" selection-start-column="63" selection-end-line="33" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#458#475#1" expanded="true" />
+            <element signature="e#509#531#1" expanded="true" />
+            <element signature="e#570#592#1" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
