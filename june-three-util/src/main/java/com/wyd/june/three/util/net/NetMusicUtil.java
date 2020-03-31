@@ -75,9 +75,9 @@ public class NetMusicUtil {
 		return response.toString();
 	}
 
-	public static void main(String[] args) {
-		String netInfo = getFirstUrl("烟火");
-		System.out.println();
-	}
+//	public static void main(String[] args) {
+//		String netInfo = getFirstUrl("烟火");
+//		System.out.println();
+//	}
 
 }

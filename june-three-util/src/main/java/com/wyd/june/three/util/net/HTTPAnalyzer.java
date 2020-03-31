@@ -14,13 +14,13 @@ import java.util.Map;
  * @date 2020-03-31 10:06
  */
 public class HTTPAnalyzer {
-	public static void main(String[] args) {
-		String url ="https://blog.csdn.net/dongp1994/article/details/100702200";
-		String param="";
-		String sendGET = GetUrl(url, param);
-		System.out.println(sendGET);
-
-	}
+//	public static void main(String[] args) {
+//		String url ="https://blog.csdn.net/dongp1994/article/details/100702200";
+//		String param="";
+//		String sendGET = GetUrl(url, param);
+//		System.out.println(sendGET);
+//
+//	}
 
 	public static String GetUrl(String url,String param){
 		String result="";//访问返回结果
