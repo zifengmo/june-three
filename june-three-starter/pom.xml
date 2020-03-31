@@ -61,7 +61,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
-					<mainClass>com.tuya.hebe.start.Startup</mainClass>
+					<mainClass>com.wyd.june.three.web.start.Starter</mainClass>
 				</configuration>
 			</plugin>
 		</plugins>
