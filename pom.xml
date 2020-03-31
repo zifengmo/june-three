@@ -10,6 +10,7 @@
 	<version>1.0-SNAPSHOT</version>
 	<modules>
 		<module>june-three-starter</module>
+		<module>june-three-util</module>
 	</modules>
 
 
@@ -42,6 +43,12 @@
 
 	<dependencyManagement>
 		<dependencies>
+
+			<dependency>
+				<groupId>com.wyd.june</groupId>
+				<artifactId>june-three-util</artifactId>
+				<version>1.0-SNAPSHOT</version>
+			</dependency>
 
 			<dependency>
 				<groupId>com.alibaba</groupId>

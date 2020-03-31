@@ -30,4 +30,18 @@ public class FirstController {
 		sb.append("</a>");
 		return sb.toString();
 	}
+
+	@RequestMapping("qq")
+	public String sayLove() throws UnsupportedEncodingException {
+		String music = ResConstant.getYourChoice();
+		StringBuilder sb = new StringBuilder();
+		sb.append("<a href=\"");
+		sb.append("https://y.qq.com/portal/search.html#page=1&searchid=1&remoteplace=txt.yqq.top&t=song&w=");
+		sb.append(URLDecoder.decode(music, "utf-8"));
+		sb.append("\">");
+		sb.append(music);
+		sb.append("<br/>");
+		sb.append("</a>");
+		return sb.toString();
+	}
 }
